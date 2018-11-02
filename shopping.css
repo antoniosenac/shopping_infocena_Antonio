@@ -1,0 +1,41 @@
+h1{text-align:center;color:green;}
+h2{text-align:center;color:green;}
+
+ div {width:100%;top=30px;margin-bottom: 20px;} 
+
+p{margin:10px;}
+
+.loja_especial{color:red}
+
+.produto_especial{color:green}
+
+a{text-decoration: none; margin-left: 100px;
+    margin right: : 1000px;
+    
+}
+
+a:link{
+    color:green;
+}
+a:visited {
+    color:purple;
+   
+}
+
+a:rover{
+    color:red
+        .text-transform:uppercase;
+}
+
+
+
+a:active{color:blue;
+}
+   
+th {
+    text-align: center !important;
+}
+td{
+    text-align: center; 
+}
+
