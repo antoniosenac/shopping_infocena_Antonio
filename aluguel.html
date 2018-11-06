@@ -26,17 +26,18 @@
             
      
         <div class="form-row">
-              <div class="form-group">
+              <div class="form-group col-xs-6">
                   
                   <label for="idnome">Nome:</label>
                   <input type="text" id="idnome"
                          name="txtnome"
                          placeholder="Digite seu Nome"
                          class="form-control"/>
-         </div>
+                </div>
+                
           
-              <div class="form-row">
-              <div class="form-group">
+              
+              <div class="form-group col-xs-6">
                   
                   <label for="idmail">E-mail:</label>
                   <input type="email" id="idmail"
@@ -45,24 +46,34 @@
                          class="form-control"/>
                   
                   </div>
-             </div>
-               <div>
-             <div class="form-row">
-              <div class="form-group">
-                  
+          </div>
+            
+           
+              <div class="form-row">
+                 <div class="form-group col-xs-6">
                   <label for="idtel">Telefone Fixo:</label>
                   <input type="text" id="idtel"
                          name="txttel"
                          placeholder="Digite seu Telefone"
                          class="form-control"/>
-              </div>
-          
+          </div>
+                  <div class="form-group col-xs-6">
+                   <label for="idcel">Celular:</label>
+                  <input type="text" id="idcel"
+                         name="txttel"
+                         placeholder="Digite seu Telefone"
+                         class="form-control"/>
+            
+                  </div>
+          </div>
+         
                 
-          Mensagem: <textarea name="mensagem" cols="50" rows="1" placeholder="Digite sua mensagem" 
+          <label>Mensagem:</label> <textarea name="mensagem" cols="50" rows="1" placeholder="Digite sua mensagem"  class="form-control"
                                  maxlength="255"></textarea>
+          
              
-   <center> <input type="submit" value="Gravar" /> </center>
-    <center> <input type="reset"  value="Limpar" /></center>
+  <center> <left> <input type="submit" value="Gravar" /> </left>
+    <right> <input type="reset"  value="Limpar" /></right> </center>
    
           
                 </form>

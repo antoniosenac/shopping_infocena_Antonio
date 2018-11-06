@@ -22,58 +22,81 @@
                 <a href="produtos.html">Nossos Produtos</a>
                 <a href="newsletter.html">Newsletter</a>
                 <a href="lojas.html">Nossas Lojas</a>
-                
+            </div>
             <h1>Assine nossa newsletter e receba nossas promoções</h1>
                 
-                <form method="post" action="">
+                <form method="post" action=".html">
      
-        
-              <div>
-            Nome: <input required="true" type="text" id="nome"
+           
+              <div class="form-row">
+                  <div class="form-group col-xs-6">
+            Nome <input  required="true" type="text" id="nome"
+                         class="form-control"
                          name="nome-competo"
                          placeholder="Digite seu nome"
                          value=""/> 
-              </div>
+                  
+                  </div>
                     
-                    <div>
-              Cidade: <select>  
+                    <div class="form-group col-xs-6">
+                        
+             Cidade
+            <select class="form-control">      
               
     <option value="Rio de Janeiro">Rio de Janeiro</option>
     <option value="Duque de Caxias">Duque de Caxias</option>
     <option value="sao joao">São João</option>
     <option value="Nova Iguacu">Nova Iguaçu</option>  
+                        
               </select>
-                        </div>
-            <div>
+                        
+            </div>
+            </div>
               
-              Email: <input  required="true" type="email" id="nome"
+                    <div class="form-row">
+                         <div class="form-group col-xs-6">
+              Email <input  required="true" type="email" id="nome"
                          name="nome-competo"
                          placeholder="Digite seu email"
+                            class="form-control"
                          value=""/>
-              </div>
-                    
-                    
-                    
-              Interesses:
+                             
+              
+                        </div>
+                   <center><label>Interesses:</label></center> 
+                    <div class="form-row">
+                    <div class="form-check-inline">
                         
-                        <input type="checkbox" id="Hardware"
-                   name="hardware"/> Hardware
+                       
+                          
+                        
+                        <input type="checkbox" class="form-check-input" id="Hardware">
+                          <label class="form-check-inline"
+                                 name="Hardware">Hardware</label>
+                    
+                            
+                
+                        
 
-              <input type="checkbox" id="Software"
-                   name="Software"/> Software
+              <input type="checkbox"  class="form-check-input" id="Software">
+                     <label  class="form-check-inline"
+                            name="Software">Software</label>
+                  
                           
           
-              <input type="checkbox" id="Jogos"
-                   name="Jogos"/>Jogos
-                
-           
+              <input type="checkbox" class="form-check-input" id="Jogos"/>
+            <label  class="form-check-inline"
+                   name="Jogos">Jogos</label>
+               
+                        </div>
+                    </div>
             
-    <center> <input type="submit" value="Gravar" /> </center>
-    <center> <input type="reset"  value="Limpar" /></center>
-            
-            </form>
+   <center> <left> <input type="submit" value="Gravar" class="btn btn-primary" /> </left>
+    <right> <input type="reset"  value="Limpar" class="btn btn-secondary" /></right> </center>
+                        
+                        </form>
                     
-                  </div>
+                  
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>   
